@@ -1,0 +1,11 @@
+<table class="example-full-width" cellspacing="0"><tr>
+    <td><mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>First name</mat-label>
+      <input  matInput   [(ngModel)] = 'firstName'>
+    </mat-form-field></td>
+    <td><mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Last Name</mat-label>
+      <input matInput [(ngModel)] ='lastName'>
+    </mat-form-field></td>
+  </tr></table>
+  <button mat-raised-button color="primary" (click)="onSubmitGoBackToParent()">Submit</button>

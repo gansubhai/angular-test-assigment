@@ -1,0 +1,58 @@
+<mat-accordion>
+    
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Task 1
+        </mat-panel-title>
+        <mat-panel-description style="padding-top:10px;">
+            <span matBadge="1" matBadgeOverlap="false">Click here to read the instruction</span>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>On click of button "Go to Game Page" navigate to Game page tab</p>
+      <a mat-raised-button  (click)="startGame()" target="_blank">Go to Game Page</a>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Task 2
+          </mat-panel-title>
+          <mat-panel-description style="padding-top:10px;">
+            <span matBadge="4" matBadgeOverlap="false">Click here to read the instruction</span>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>You have to suscribe to randomInteger function in test-web.service.ts and get the random number in the range from 100 to 999</p>
+        <p>Display max number in game-page.component.html under "Panel with Max Number"</p>
+        <p>Display min number in game-page.component.html under "Panel with Min Number"</p>
+        <p>Display average number in game-page.component.html under "Panel with Average Number"</p>
+        
+      </mat-expansion-panel>
+
+      <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Task 3
+          </mat-panel-title>
+          <mat-panel-description style="padding-top:10px;">
+            <span matBadge="1" matBadgeOverlap="false">Click here to read the instruction</span>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>Display the max number and its occurence in game-page.component.html under "Panel with Number of occurance Of largest Number " </p>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Task 4
+              </mat-panel-title>
+              <mat-panel-description style="padding-top:10px;">
+                <span matBadge="1" matBadgeOverlap="false">Click here to read the instruction</span>
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>Under Childer to Parent tab please display value submited on child.component.html in c-to-p.componenet.html </p>
+            </mat-expansion-panel>
+  </mat-accordion>
+  
+
+
