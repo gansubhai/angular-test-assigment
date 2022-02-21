@@ -2,6 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
+## steps of initialization
+
+After you clone ths repository run `npm install`
+
+## Task details
+Task 1. On click of button "Go to Game Page" navigate to Game page tab
+
+Task 2.
+You have to suscribe to randomInteger function in test-web.service.ts and get the random number in the range from 100 to 999
+Display max number in game-page.component.html under "Panel with Max Number"
+Display min number in game-page.component.html under "Panel with Min Number"
+Display average number in game-page.component.html under "Panel with Average Number"
+
+Task 3.
+Display the max number and its occurence in game-page.component.html under "Panel with Number of occurance Of largest Number "
+
+Task 4.
+Under Childer to Parent tab please display value submited on child.component.html in c-to-p.componenet.html 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
