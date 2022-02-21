@@ -4,16 +4,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## steps of initialization
 
-After you clone ths repository run `npm install`
+After you clone this repository run `npm install`
 
 ## Task details
 Task 1. On click of button "Go to Game Page" navigate to Game page tab
 
-Task 2.
-You have to suscribe to randomInteger function in test-web.service.ts and get the random number in the range from 100 to 999
-Display max number in game-page.component.html under "Panel with Max Number"
-Display min number in game-page.component.html under "Panel with Min Number"
-Display average number in game-page.component.html under "Panel with Average Number"
+Task 2.<br>
+i.    You have to suscribe to randomInteger function in test-web.service.ts and get the random number in the range from 100 to 999 <br>
+ii.   Display max number in game-page.component.html under "Panel with Max Number"<br>
+iii.  Display min number in game-page.component.html under "Panel with Min Number"<br>
+iv.   Display average number in game-page.component.html under "Panel with Average Number"<br>
 
 Task 3.
 Display the max number and its occurence in game-page.component.html under "Panel with Number of occurance Of largest Number "
